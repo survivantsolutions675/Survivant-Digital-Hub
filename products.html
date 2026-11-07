@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Survivant Digital Hub</title>
+  <meta name="description" content="Explore digital products from Survivant Digital Hub.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    :root {
+      --sdh-black: #171717;
+      --sdh-red: #C8102E;
+      --sdh-yellow: #FFC928;
+      --sdh-white: #FFFFFF;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: var(--sdh-black);
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .product-hero {
+      background: var(--sdh-black);
+      color: var(--sdh-white);
+      padding: 55px 20px;
+      text-align: center;
+      border-bottom: 6px solid var(--sdh-red);
+    }
+
+    .product-hero h1 {
+      font-size: clamp(28px, 5vw, 44px);
+      margin: 15px 0;
+    }
+
+    .product-hero p {
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.7;
+    }
+
+    .status {
+      display: inline-block;
+      background: var(--sdh-yellow);
+      color: var(--sdh-black);
+      padding: 9px 14px;
+      font-weight: bold;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+
+    .product-container {
+      max-width: 1000px;
+      margin: 35px auto;
+      padding: 0 18px;
+    }
+
+    .product-card {
+      background: var(--sdh-white);
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .product-card h2 {
+      color: var(--sdh-red);
+      margin-top: 0;
+    }
+
+    .price {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .price small {
+      font-size: 14px;
+      font-weight: normal;
+      color: #555;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin: 25px 0;
+    }
+
+    .feature {
+      background: #fff8df;
+      border-left: 4px solid var(--sdh-yellow);
+      padding: 14px;
+      border-radius: 5px;
+    }
+
+    .notice {
+      background: #fff1f2;
+      border-left: 5px solid var(--sdh-red);
+      padding: 18px;
+      margin: 25px 0;
+      line-height: 1.6;
+    }
+
+    .product-button {
+      display: inline-block;
+      background: var(--sdh-red);
+      color: white;
+      padding: 13px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .product-button:hover {
+      background: #a30d25;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin: 25px 0;
+      color: var(--sdh-red);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .disclaimer {
+      font-size: 13px;
+      color: #555;
+      line-height: 1.7;
+      margin-top: 25px;
+    }
+
+    footer {
+      background: var(--sdh-black);
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="product-hero">
+  <span class="status">PRE-LAUNCH · PRODUCT IN DEVELOPMENT</span>
+
+  <h1>Survivant Digital Hub</h1>
+
+  <p>Your Gateway to Digital Products, Business & Opportunities.</p>
+</header>
+
+<main class="product-container">
+
+  <a class="back-link" href="index.html">
+    ← Back to SDH Homepage
+  </a>
+
+  <section class="product-card">
+
+    <h2>Complete PNG HR Templates Toolkit</h2>
+
+    <p>
+      A practical collection of editable HR templates, forms,
+      checklists and registers designed to help PNG businesses
+      organise everyday human resource administration.
+    </p>
+
+    <div class="price">
+      K49 <small>Proposed introductory price — subject to validation</small>
+    </div>
+
+    <h3>What the toolkit is planned to include</h3>
+
+    <div class="features">
+      <div class="feature">Recruitment & Selection Templates</div>
+      <div class="feature">Employee Onboarding & Records</div>
+      <div class="feature">Leave & Attendance Registers</div>
+      <div class="feature">Probation & Performance Reviews</div>
+      <div class="feature">Employee Relations & Investigation Forms</div>
+      <div class="feature">Grievance & Exit Management</div>
+      <div class="feature">HR Reporting Templates</div>
+      <div class="feature">Excel HR Registers & Trackers</div>
+    </div>
+
+    <div class="notice">
+      <strong>Launch announcement</strong><br>
+      This product is currently being prepared for launch.
+      It is not yet available for purchase. Online checkout,
+      payment processing and automatic digital delivery are
+      not currently available.
+    </div>
+
+    <a href="index.html#contact" class="product-button">
+      Visit SDH Homepage
+    </a>
+
+    <p class="disclaimer">
+      <strong>Important:</strong> This toolkit is intended for
+      general HR administration and is not legal advice.
+      It is not certified or guaranteed to comply with every
+      current Papua New Guinea law, award, employment agreement
+      or workplace policy. Employers should adapt the templates
+      to their circumstances and obtain appropriate PNG HR or
+      legal review before use.
+    </p>
+
+  </section>
+
+</main>
+
+<footer>
+  <p><strong>Survivant Digital Hub</strong></p>
+  <p>Your Gateway to Digital Products, Business & Opportunities.</p>
+  <p>© Survivant Solutions</p>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
